@@ -1,7 +1,7 @@
 # 3D-Reconstruction-in-Dynamic-Environments
 > Environment: 
 
-Members: Bo Yue & Chi Zhang  
+Members: Bo Yue & Chi Zhang in Automation Department, SEIEE, SJTU.
 This is a project for our course AU332 -- Artificial Intelligence: Principles and Techniques. 
 
 ### Description
