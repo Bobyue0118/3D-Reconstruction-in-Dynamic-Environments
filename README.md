@@ -14,3 +14,4 @@ The majority of SLAM methods focus on static environments, but the deployment in
 - [https://arxiv.org/abs/1905.02082](https://arxiv.org/abs/1905.02082)
 - [https://www.youtube.com/watch?v=1P9ZfIS5-p4](https://www.youtube.com/watch?v=1P9ZfIS5-p4)
 - dataset: https://rgbd-dataset.cs.washington.edu/dataset/ 
+- 高翔：https://github.com/gaoxiang12/rgbd-slam-tutorial-gx  
