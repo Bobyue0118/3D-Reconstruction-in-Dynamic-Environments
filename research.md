@@ -16,3 +16,6 @@
 - MVision: https://github.com/Ewenwan
 - InstanceFusion: Real-time Instance-level 3D Reconstruction of Indoor Scenes using a Single RGBD Camera: https://github.com/Fancomi2017/InstanceFusion
 - Real-time 3D-reconstruction from multiple RGBD-sensor streams. Please cite our work when using our software in your own research or publication: https://github.com/steppobeck/rgbd-recon
+
+## Worth Reading
+- **Perception package of the robot working with the Realsense 3D camera. Is used to identify and classify objects: https://github.com/RAS-2018-Group6/robot_perception**
