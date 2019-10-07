@@ -14,3 +14,5 @@
 - 3d object reconstruction with RealSenseD435: https://github.com/AoLyu/3D-Object-Reconstruction-with-RealSense-D435
 - This project is to do 3D reconstruction from RGBD input of robots: https://github.com/iyezhiyu/3D_Reconstruction_for_Robot_Vision
 - MVision: https://github.com/Ewenwan
+- InstanceFusion: Real-time Instance-level 3D Reconstruction of Indoor Scenes using a Single RGBD Camera: https://github.com/Fancomi2017/InstanceFusion
+- Real-time 3D-reconstruction from multiple RGBD-sensor streams. Please cite our work when using our software in your own research or publication: https://github.com/steppobeck/rgbd-recon
