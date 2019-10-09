@@ -1,5 +1,5 @@
 ## Worth Reading
-- Perception package of the robot working with the Realsense 3D camera. Is used to identify and classify objects: https://github.com/RAS-2018-Group6/robot_perception
+- **3d object reconstruction with RealSenseD435: https://github.com/AoLyu/3D-Object-Reconstruction-with-RealSense-D435**
 
 ### Related Information
 - [https://arxiv.org/abs/1905.02082](https://arxiv.org/abs/1905.02082)
