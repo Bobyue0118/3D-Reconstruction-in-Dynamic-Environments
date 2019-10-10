@@ -1,5 +1,7 @@
 ## Worth Reading
 - **https://github.com/PRBonn/refusion**
+- SDK & Environment: https://github.com/IntelRealSense/librealsense
+- 使用D435：https://blog.csdn.net/cherry_yu08/article/details/83279851
 
 ### Related Information
 - [https://arxiv.org/abs/1905.02082](https://arxiv.org/abs/1905.02082)
