@@ -9,7 +9,7 @@
 - dataset: https://rgbd-dataset.cs.washington.edu/dataset/ 
 - 高翔：https://github.com/gaoxiang12/rgbd-slam-tutorial-gx  
 - **https://github.com/PRBonn/refusion**
--install real-sense on Ubuntu https://www.intelrealsense.com/developers#firmware
+- install real-sense on Ubuntu https://www.intelrealsense.com/developers#firmware
 
 ### Github Acess
 - Implementation of some rgbd-based real-time 3d reconstruction algorithms: https://github.com/tianshanfz/hybKinectfu
