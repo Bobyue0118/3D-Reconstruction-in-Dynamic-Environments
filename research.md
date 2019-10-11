@@ -9,6 +9,7 @@
 - dataset: https://rgbd-dataset.cs.washington.edu/dataset/ 
 - 高翔：https://github.com/gaoxiang12/rgbd-slam-tutorial-gx  
 - **https://github.com/PRBonn/refusion**
+-install real-sense on Ubuntu https://www.intelrealsense.com/developers#firmware
 
 ### Github Acess
 - Implementation of some rgbd-based real-time 3d reconstruction algorithms: https://github.com/tianshanfz/hybKinectfu
@@ -21,5 +22,4 @@
 - MVision: https://github.com/Ewenwan
 - InstanceFusion: Real-time Instance-level 3D Reconstruction of Indoor Scenes using a Single RGBD Camera: https://github.com/Fancomi2017/InstanceFusion
 - Real-time 3D-reconstruction from multiple RGBD-sensor streams. Please cite our work when using our software in your own research or publication: https://github.com/steppobeck/rgbd-recon
-
 
