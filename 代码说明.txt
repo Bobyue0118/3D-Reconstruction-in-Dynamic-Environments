@@ -1,0 +1,38 @@
+1.prepare_training_data.py: 预处理原始数据，完成分辨率变换。下述命令调用：
+python3 prepare_training_data.py --dataset_dir /home/zhang/documents/data/curriculum/3D-reconstruction/Dataset \
+--dump-root /home/zhang/documents/data/curriculum/3D-reconstruction/pre-jpg
+
+2.train.py: 训练masknet和posenet的程序。用下述命令训练：
+
+CUDA_VISIBLE_DEVICES=0 python3 train.py --dataset_dir /home/stu_4/refusion/pre-png  --batch-size 32    \
+--mask-loss-weight 0.1  --smooth-loss-weight 0.2 --consensus-loss-weight 2.0  --pose-loss-weight 2.0 \
+--epoch-size 1000  --nlevels 6 --lr 1e-4 -wssim 0.7   \
+--epochs 80  --name deemo
+
+3.sequence_folders.py：用于创建dataloader的时候，生成以连续三帧为一组的RGB连续帧、深度图连续帧以及label掩膜连续帧。且可以加载位姿真值。
+
+
+4.inverse_warp.py：包含用位姿变换将像素点投影到空间、将点云投影到相邻帧、将点云投影到相机平面等操作。训练时会调用其中的函数。
+
+5.custom_transforms.py：加载数据集时调用，包含多个数据增强方法（虽然很多都没用上）。
+
+6.loss_functions.py：损失函数定义在该文件中，训练时会自动调用。
+
+7.ssim.py：一种结构一致性的鲁棒性损失，在计算损失函数时会调用。
+
+8.utils.py：一些杂七杂八的函数写在这里面了。
+
+9.MaskResNet6.py：基于pytorch的masknet模型
+
+10.PoseNetB6.py：基于pytorch的posenet模型
+
+=============================================================
+
+11.inference.py： 用于生成某场景连续帧下的分割掩模，用于展示。调用命令与训练时的相同，但是要加上加载模型的命令。
+
+12.sequence_folders_for_inference.py： 因为测试时要加载连续帧的序列，不能打乱顺序，所以部分细节不一样，在测试时会调用这个加载程序。
+
+13.Mask_RCNN文件夹中的demo.ipynb：用于从Mask R-CNN生成mask，也是Mask_RCNN文件夹中唯一修改的文件，运行demo.ipynb即可得到对应RGB图像的mask。
+
+14.tsdf_fusion_python文件夹中的demo.py：运行demo.py即可生成对应data中RGB-D图及相机外参矩阵的3D点云模型。
+
